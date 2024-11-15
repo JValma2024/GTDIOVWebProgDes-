@@ -1,0 +1,9 @@
+Visual Studio Code alapvető beállításai, bővítmények.
+
+HTML és CSS fejlesztéshez a Visual Studio Code-ban az alábbi alapvető beállításokat és bővítményeket végeztem el:
+    *Live Server bővítmény: Ez a bővítmény lehetővé teszi, hogy élő előnézetet kapjunk a böngészőben, és automatikusan frissítse az oldalt, amikor mentjük a fájlokat. Így gyorsan láthatjuk a HTML és CSS változtatásokat.
+    *Formázási beállítások: Automatikus formázás mentéskor: Beállítottam az automatikus formázást (Format on Save) a JSON fájlba (settings.json), hogy a kódod szépen formázott legyen mentés után.
+    *Prettier bővítmény: Ez egy kódformázó, ami segít tisztán és egységesen tartani a HTML és CSS fájlokat.
+    *Emmet bővítmény: Alapértelmezetten be van kapcsolva, és HTML fejlesztésnél hasznos, mert rövidítéseket (snippets) kínál a gyorsabb kódíráshoz. 
+    *CSS IntelliSense: Segít a CSS kód kitöltésében, és javaslatokat ad a stílusokhoz, így gyorsabban tudunk dolgozni, és elkerülhetjük az elírásokat.
+    *Automatikus mentés: A változtatások mentése gyorsabb és egyszerűbb.

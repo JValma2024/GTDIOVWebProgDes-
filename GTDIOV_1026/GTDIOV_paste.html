@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Képek beillesztése és formázása</title>
+    <style>
+      .gyumolcs {
+        display: flex;
+        margin-top: 50px;
+        display: flex;
+        align-items: flex-start;
+      }
+
+      .gyumolcs img {
+         border: 5px solid red;
+         width: 15%;    
+             
+      }
+
+      .scc {
+        margin-top: 20px;
+        width: 50%;
+      }
+
+      .sorkizart{
+        text-align: justify;
+        width: 340px;
+        font-size: 20px;
+        
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Képek beillesztése</h1>
+
+    <div class="gyumolcs">
+      <img src="./képek/gyumolcs.jpg" alt="Gyümölcs kép" width="150" />
+      <div class="text">
+        <p class="sorkizart">
+          Ez egy szöveg, amit arra használunk, hogy a kép körül jelenlen majd
+          meg. Ha sikerül, akkor a kép körül lesz folytatva a szöveggel
+          (legalábbis a kép két oldala). Így már sokkal szebben be tudunk
+          illeszteni képeket a weblapunkra!
+        </p>
+      </div>
+    </div>
+
+    <img src="./képek/scc.jpg" alt="Épület kép" class="scc" />
+  </body>
+
+</html>

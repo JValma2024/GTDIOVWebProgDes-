@@ -1,0 +1,30 @@
+
+h1{
+    color: rgb(5, 155, 105);
+    text-align: center; 
+}
+
+p {
+    color: blue;
+    font-size: 18px;
+    text-align: justify;
+    width: 500px;
+}
+
+button {
+    color:#ffffff;
+    background-color: #228961;
+    box-shadow: 3px 3px 3px rgb(7, 7, 7);  
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px; 
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #2f7fb4;
+}
+
+button :active{
+    box-shadow: 1px 1px 3px rgb(10, 10, 10);
+}
