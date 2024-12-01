@@ -1,0 +1,36 @@
+.grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+    width: 40rem;
+}
+button {
+    border: 1px solid #252525; 
+    border-radius: 10px; 
+    width: 50px;
+    height: 50px;
+    padding: 1px 1px; 
+    cursor: pointer; 
+    align-items: center;
+    background-color:rgb(187, 221, 255);
+}
+
+button img{
+    width: 25px; 
+    height: auto; 
+    }
+
+.kontrol {
+    display: flex; 
+    gap: 10px; 
+}
+
+footer {
+    border-top: 4px solid gray;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    width: 37.5rem;
+    text-align: right;
+}

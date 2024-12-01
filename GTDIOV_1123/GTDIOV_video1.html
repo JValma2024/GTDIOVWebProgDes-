@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="GTDIOV_video1.css">
+        <title>Webprogramozás és Desing</title>
+    </head>
+<body>
+    <header>
+        <h1>Videó lejátszása_GTDIOV</h1>
+    </header>
+    <section>
+        <video src="./videó/JV_video.mp4" autoplay="false" controls width="600"></video>
+        <div class="grid">
+            <div class="kontrol">
+                <button id="start"><img src="./ikonok/play.png" alt="Inditas"></button>
+                <button id="stop"><img src="./ikonok/stop.png" alt="Stop"></button>
+            </div>
+            <div class="kontrol">
+                <button id="startstop"><img src="./ikonok/asd.png" alt="Inditas/leallitas"></button>
+            </div>
+            <div class="kontrol">
+                <button id="mute"><img src="./ikonok/mute.png" alt="Mute"></button>
+                <button id="quite"><img src="./ikonok/halk.png" alt="Halk"></button>
+                <button id="loud"><img src="./ikonok/hangos.png" alt="Hangos"></button>
+            </div>
+            <div class="kontrol">
+                <button id="veryslow"><img src="./ikonok/lassu.png" alt="Nagyon lassú"></button>
+                <button id="slow"><img src="./ikonok/lassu2.png" alt="lassú"></button>
+                <button id="normal"><img src="./ikonok/play.png" alt="Normal"></button>
+                <button id="fast"><img src="./ikonok/gyors.png" alt="gyors"></button>
+                <button id="veryfast"><img src="./ikonok/very fast.png" alt="Nagyon gyors"></button>
+            </div>
+            <div class="kontrol">
+                <button id="small"><img src="./ikonok/img small.png" alt="Kicsi"></button>
+                <button id="normalsize"><img src="./ikonok/img big.png" alt="Normál"></button>
+                <button id="big"><img src="./ikonok/img.png" alt="Nagy"></button>
+            </div>
+            <div class="kontrol">
+                <button id="hasitended"><img src="./ikonok/ok.png" alt="befejezodott e"></button>
+                <button id="length"><img src="./ikonok/clock.png" alt="videó hossza"></button>
+                <button id="currently"><img src="./ikonok/pace.png" alt="Jelenlegi pozi"></button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        Forrás: <a href="https://www.w3schools.com/html/html5_video.asp">https://www.w3schools.com/html/html5_video.asp</a>
+    </footer>
+    <script>
+        let btnClick = (id, onclick) => document.getElementById(id).addEventListener("click", onclick);
+    
+        let video = document.querySelector("video");
+    
+        btnClick("start", () => video.play());
+        btnClick("stop", () => video.pause());
+        btnClick("startstop", () => video.paused ? video.play() : video.pause());
+    
+        btnClick("mute", () => video.volume = 0);
+        btnClick("quite", () => video.volume = 0.5);
+        btnClick("loud", () => video.volume = 1);
+    
+        btnClick("veryslow", () => video.playbackRate = 0.5);
+        btnClick("slow", () => video.playbackRate = 0.75);
+        btnClick("normal", () => video.playbackRate = 1);
+        btnClick("fast", () => video.playbackRate = 1.25);
+        btnClick("veryfast", () => video.playbackRate = 1.5);
+    
+        btnClick("small", () => video.width = 400);
+        btnClick("normalsize", () => video.width = 600);
+        btnClick("big", () => video.width = 800);
+    
+        btnClick("hasitended", () => alert(video.ended));
+        btnClick("length", () => alert(video.duration));
+        btnClick("currently", () => alert(video.currentTime));
+        </script>
+     </body>  
+</html>      
+    
