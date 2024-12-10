@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Kezdőlap</title>
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./GTDIOV_index.css">
+</head>
+<body>
+    <header>
+       <nav id="kontakt">
+            <ul>
+                <i class="bi bi-instagram"><a href="https://www.instagram.com/"></a></i>
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                <i class="bi bi-facebook"><a href="https://www.facebook.com/"></a></i>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <i class="bi bi-twitter"><a href="https://x.com/"></a></i>
+                <li><a href="https://x.com/">Twitter</a></li>
+             </ul> 
+        </nav> 
+            <h1><a href="GTDIOV_index.html">Kiberbiztonság & adatvédelem</a></h1>
+        <nav id="menu"> 
+            <ul>
+                <td><a href="GTDIOV_intro.html">Bevezetés</a></td>
+                <td><a href="GTDIOV_fenyegetes.html">Fenyegetések</a></td>
+                <td><a href="GTDIOV_tipp.html">Bitronsági tanácsok</a></td>
+                <td><a href="GTDIOV_quiz.html">Kvíz ideje!</a></td>      
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="welcome">
+            <h2>Üdvözlünk a Kiberbiztonság & Adatvédelem világában!</h2>
+            <p>
+                Helló! Üdvözlünk a kiberbiztonság és adatvédelem izgalmas világában, ahol betekintést nyerhetsz az online tér veszélyeibe, 
+                valamint hasznos tippeket és trükköket tanulhatsz meg, hogy hogyan védd meg magadat és adataidat. 
+                Fedezd fel a leggyakoribb fenyegetéseket, ismerd meg a védekezési stratégiákat, és tudj meg mindent a modern digitális biztonságról!
+            </p>
+            <p>
+                Oldalunk segít eligazodni a kiberbiztonság rejtelmeiben, legyen szó akár a rosszindulatú programokról, 
+                adathalászatról, vagy a biztonságos jelszókezelésről. Tarts velünk, és ismerd meg, hogyan maradhatsz biztonságban az online világban!
+            </p>
+           
+        </section>
+        <section>
+            <form
+              action="./GTDIOV_feldolgozo.php"
+              target="_self"
+              method="post"
+              id="urlap"
+              name="urlap"
+            >
+            <label for="nev">Név:</label>
+            <input
+             type="text" 
+             id="nev"
+             name="nev"
+             placeholder="Írd be a neved" required>
+             <br><br>
+        
+            <label for="varos">Város:</label>
+            <input list="varosok" id="varos" name="varos">
+            <datalist id="varosok">
+                <option value="Budapest">
+                <option value="Debrecen">
+                <option value="Szeged">
+                <option value="Pécs">
+            </datalist>
+            <br><br>
+
+            <label for="komment">Megjegyzés:</label>
+            <textarea
+             id="komment"
+             name="komment"
+             rows="4" cols="50"
+             placeholder="Írd ide a megjegyzésed"></textarea>
+            <br><br>       
+        
+            <label>Érdeklődési körök:</label>
+            <label for="biztonsag">
+                <input type="checkbox" id="biztonsag" name="biztonsag" value="Kiberbiztonság">
+                Kiberbiztonság
+            </label>
+            <label for="adatvedelem">
+                <input type="checkbox" id="adatvedelem" name="adatvedelem" value="Adatvédelem">
+                Adatvédelem
+            </label>        
+            <br><br>
+        
+            <label>Elégedettség:</label>
+            <input type="radio"
+             id="nagyon elegedett"
+             name="elegedettseg"
+             value="nagyon elegedett">
+            <label for="nagyon elegedett">Nagyon elégedett</label>
+
+            <input type="radio"
+             id="elegedett"
+             name="elegedettseg"
+             value="elegedett">
+            <label for="elegedett">Elégedett</label>
+
+            <input type="radio"
+             id="semleges"
+             name="elegedettseg"
+             value="semleges">
+            <label for="semleges">Semleges</label>
+            <br><br>
+        
+            <label for="kedvenc szin">Kedvenc szín:</label>
+            <input type="color"
+             id="kedvenc szin"
+             name="kedvenc szin">
+             <br><br>
+
+            <label for="age">Életkor:</label>
+                <input type="number"
+                 id="age"
+                 name="age"
+                 min="1"
+                 max="100"
+                 step="1"
+                 title="1 és 100 közötti érték"
+                 placeholder=""/>
+              
+              <br><br>
+        
+            <label for="datum">Dátum kiválasztása:</label>
+            <input
+             type="date"
+             id="datum"
+             name="datum">
+            <br><br>
+
+            <button type="submit">Küldés</button>
+        </form>
+        
+        </section>
+        <footer>
+        <p>© 2024 Kiberbiztonság & adatvédelem
+            <br>Jenei Viola, GTDIOV
+        </p>
+    </footer>
+</body>
+</html>

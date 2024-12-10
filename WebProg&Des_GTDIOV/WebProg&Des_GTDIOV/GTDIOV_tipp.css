@@ -1,0 +1,138 @@
+body {
+    margin: 0px 0px;
+    background-image: url("./képek/kiber3.webp");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment:fixed;  
+    opacity: 0.88;
+}
+
+header {
+    background-color: #1a1919;
+    color: #acbecf;
+    padding: 1px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+    
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1 a {
+    color: #226089;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #767f85;
+}
+
+#menu a {
+    color: #acbecf;
+    padding: 12px;
+    text-decoration: none; 
+    font-size: 21px;       
+}
+
+#menu a:hover{
+    color: #767f85;
+}
+
+main {
+    padding: 2px;
+    margin: auto;
+    max-width: 900px; 
+    background-image: linear-gradient( #386a8b, #706f6f);
+}
+
+h2 {
+    border-bottom: 2px solid#6f8899;
+    color: #e0e8f0;
+   
+}
+
+section{
+    margin:  80px 80px;
+    font-size: 20px;
+    text-align: justify;
+    }
+
+article {
+    background-color: #acbecf;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+    
+article p {
+    line-height: 1.6;
+    color: #333;
+}    
+
+#video {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+aside{
+    margin-bottom: 100px;
+    font-size: 18px;
+    color: blue;
+    text-align: center;
+    
+}
+
+.grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+button {
+    border: 1px solid #252525; 
+    border-radius: 10px; 
+    width: 50px;
+    height: 50px;
+    padding: 1px 1px; 
+    cursor: pointer; 
+    align-items: center;
+    background-color:rgb(187, 221, 255);
+}
+
+button img{
+    width: 25px; 
+    height: auto; 
+    }
+
+.kontrol {
+    display: flex; 
+    gap: 10px; 
+    justify-content: center;
+    
+    
+}
+
+footer {
+    text-align: center;
+    background-color:  #1a1919;
+    color: #226089;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+ 
+}

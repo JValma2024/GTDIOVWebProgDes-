@@ -1,0 +1,87 @@
+body {
+    margin: 0px 0px;
+    background-image: url("./képek/kiber4");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment:fixed;  
+    opacity: 0.88;
+}
+
+header {
+    background-color: #1d1c1c;
+    color: #226089;
+    padding: 1px;
+    text-align: center;
+}
+
+div ul li {
+    display: inline;
+    margin-right: 30px;
+    
+}
+
+div ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1 a {
+    color: #226089;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #767f85;
+}
+
+#menu a {
+    color: #226089;
+    padding: 12px;
+    text-decoration: none; 
+    font-size: 21px;       
+}
+
+#menu a:hover{
+    color: #767f85;
+}
+
+main {
+    padding: 2px;
+    margin: auto;
+    max-width: 900px; 
+    background-image: linear-gradient( #386a8b, #706f6f);
+}
+
+h2 {
+    border-bottom: 2px solid#304655;
+}
+
+section{
+    margin:  80px 80px;
+    font-size: 20px;
+    text-align: justify;
+    }
+
+ img{
+    max-width: 800px; 
+    margin: 20px auto; 
+    display: block; 
+    border-radius: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 160px;     
+ }   
+
+footer {
+    text-align: center;
+    background-color:  #1d1c1c;;
+    color: #226089;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+ 
+}
